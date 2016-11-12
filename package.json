@@ -1,0 +1,24 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "description": "Markdown previewer",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "keywords": [
+    "markdown",
+    "react",
+    "preview"
+  ],
+  "author": "Christopher Train",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^0.3.6",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-render-html": "^0.1.6",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
