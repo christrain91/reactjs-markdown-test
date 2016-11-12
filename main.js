@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.jsx';
 
+import Layout from './components/Layout';
 
+const app = document.getElementById('app');
 
-const tick = (() => ReactDOM.render(<App />, document.getElementById('app')));
-
-tick();
-setInterval(tick, 1);
+ReactDOM.render(<Layout />, app);
