@@ -7,4 +7,4 @@ import App from './App.jsx';
 const tick = (() => ReactDOM.render(<App />, document.getElementById('app')));
 
 tick();
-setInterval(tick, 1000);
+setInterval(tick, 1);
