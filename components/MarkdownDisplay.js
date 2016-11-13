@@ -9,12 +9,18 @@ export default class MarkdownDisplay extends React.Component {
    render() {
 
     const viewerStyle = {
-        marginTop: '30px',
-        fontSize: '20px'
+        fontSize: '20px',
+        height: '700px',
+        border: '1px solid #CCC',
+        borderRadius: '3px',
+        padding: '10px'
     };
 
     return (
+        <div>
+        <label>Rendered markdown</label>
         <div style={viewerStyle} ref="markdownViewer"></div>
+        </div>
     );
    }
 }

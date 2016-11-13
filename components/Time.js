@@ -14,7 +14,7 @@ export default class MarkdownEntry extends React.Component {
     }
 
     getTime() {
-        return moment().format('HH:mm:ss.SSS');
+        return moment().format('HH:mm:ss');
     }
 
     updateTime() {

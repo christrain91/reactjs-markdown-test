@@ -13,9 +13,10 @@ export default class MarkdownEntry extends React.Component {
            width: '100%',
            height: '700px',
            resize: 'none',
-           color: '#777',
            borderRadius: '3px',
-           fontSize: '20px'
+           borderColor: '#CCC',
+           fontSize: '20px',
+           padding: '10px'
        };
 
     return (

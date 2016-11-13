@@ -10,7 +10,7 @@ export default class Layout extends React.Component {
     constructor() {
         super();
         this.state = {
-            markdown: 'initial'
+            markdown: ''
         };
     }
 
@@ -20,8 +20,12 @@ export default class Layout extends React.Component {
 
    render() {
 
+       const layoutStyle = {
+           color: '#666'
+       };
+
     return (
-        <div className="container">
+        <div className="container" style={layoutStyle}>
             <Time />
             <div> 
                 <div className="col-xs-6">
